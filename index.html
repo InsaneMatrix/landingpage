@@ -14,12 +14,12 @@
         }
         nav{
             background-color: #1F2937; 
-            height: 13vh;
+            height: 9vh; 
         }
         h1{
             display: inline;
             color: #F9FAF8;
-            margin: 100px 24vw;
+            margin: 100px 16vw;
         }
         ul{
             margin-right: 100px;
@@ -35,7 +35,49 @@
         font-weight: bold;
         }
         nav ul li a{
-            color:white;  
+            color:white;
+        }
+        #color1{
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+        .main{
+            font-size:48px;
+            font-weight: 800;
+            color: #F9FAF8;
+        }
+        .intro{
+            display:inline-flex;
+            height: 50vh;
+            width:100vw;
+            background-color:#1F2937;
+        }
+        .text{
+            width:24vw;
+            height:100%;
+            margin-left:16vw;
+            
+        }
+        .signup{
+            background-color: #3882f6;
+            color:white;
+            border-radius: 10px;
+            width:130px;
+            height:30px;
+            text-align: center;
+            font-size:18px;
+            padding-top: 6px;;
+            margin-top:1vh;
+        }
+        .imageholder{
+            width:35vw;
+            height:57%;
+            margin-left:5vw;
+            background-color: gray;
+            color:#E5E7EB;
+            text-align: center;
+            display:grid;
+            place-items: center;
         }
 
     </style>
@@ -45,12 +87,14 @@
         <br>   
         <h1>Header Logo</h1>
         <ul>
-            <li><a href="google.com">header link one  </a></li>
-            <li>header link two  </li>
-            <li>header link three  </li>
+            <li id="color1"><a href="https://google.com">header link one  </a></li>
+            <li id="color1">header link two  </li>
+            <li id="color1">header link three  </li>
         </ul>
     </nav>
-
-
+    <div class="intro"><div class="text">
+       <br><br><br><p class="main">This website is awesome</p>
+<p id="color1">This website has some subtext that goes here under the title. Its a smaller font with lower contrast color</p><div class="signup">Sign up</div></div>
+<div><br><br><br><div class="imageholder">place holder for image</div></div></div>
 </body>
 </html>
