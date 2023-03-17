@@ -1,100 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OdinProjectPage</title>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
-            text-decoration:none; 
+            text-decoration: none;
             list-style: none;
         }
-        nav{
-            background-color: #1F2937; 
-            height: 9vh; 
+
+        nav {
+            width:100vw;
+            background-color: #1F2937;
+            height: 9vh;
         }
-        h1{
+
+        h1 {
             display: inline;
             color: #F9FAF8;
             margin: 100px 16vw;
         }
-        ul{
+
+        ul {
             margin-right: 100px;
-            float:right;
+            float: right;
         }
-        ul li{
+
+        ul li {
             display: inline-block;
-            padding:0 7px;
+            padding: 0 7px;
             font-size: 20px;
-            color:white;
+            color: white;
         }
-        #bold{
-        font-weight: bold;
+
+        #bold {
+            font-weight: bold;
         }
-        nav ul li a{
-            color:white;
+
+        nav ul li a {
+            color: white;
         }
-        #color1{
+
+        #color1 {
             font-size: 18px;
             color: #E5E7EB;
         }
-        .main{
-            font-size:48px;
+
+        .main {
+            font-size: 48px;
             font-weight: 800;
             color: #F9FAF8;
         }
-        .intro{
-            display:inline-flex;
+
+        .intro {
+            display: inline-flex;
             height: 50vh;
-            width:100vw;
-            background-color:#1F2937;
+            width: 100vw;
+            background-color: #1F2937;
         }
-        .text{
-            width:24vw;
-            height:100%;
-            margin-left:16vw;
-            
+
+        .text {
+            width: 24vw;
+            height: 100%;
+            margin-left: 16vw;
+
         }
-        .signup{
+
+        .signup {
             background-color: #3882f6;
-            color:white;
+            color: white;
             border-radius: 10px;
-            width:130px;
-            height:30px;
+            width: 130px;
+            height: 30px;
             text-align: center;
-            font-size:18px;
-            padding-top: 6px;;
-            margin-top:1vh;
+            font-size: 18px;
+            padding-top: 6px;
+            ;
+            margin-top: 1vh;
         }
-        .imageholder{
-            width:35vw;
-            height:57%;
-            margin-left:5vw;
+
+        .imageholder {
+            width: 35vw;
+            height: 57%;
+            margin-left: 5vw;
             background-color: gray;
-            color:#E5E7EB;
+            color: #E5E7EB;
             text-align: center;
-            display:grid;
+            display: grid;
             place-items: center;
         }
 
+        .information {
+            height: 50vh;
+            width: 100vw;
+            background-color: white;
+            text-align: center;
+        }
+
+        #infoheader {
+            font-size: 36px;
+            font-weight: 800;
+            color: #1F2937;
+        }
+
+        .box {
+            border: 2px solid #3882f6;
+            height: 10vw;
+            width: 10vw;
+            border-radius: 10px;
+            margin-right: 3.5vw;
+        }
+
+        .holder {
+            display: inline-flex;
+            margin-top: 36px;
+        }
+
+        .lowertext {
+            width: 10vw;
+            height: auto;
+                        
+        }
     </style>
 </head>
 <body>
     <nav>
-        <br>   
+        <br>
         <h1>Header Logo</h1>
         <ul>
-            <li id="color1"><a href="https://google.com">header link one  </a></li>
-            <li id="color1">header link two  </li>
-            <li id="color1">header link three  </li>
+            <li id="color1"><a href="https://google.com">header link one </a></li>
+            <li id="color1">header link two </li>
+            <li id="color1">header link three </li>
         </ul>
     </nav>
-    <div class="intro"><div class="text">
-       <br><br><br><p class="main">This website is awesome</p>
-<p id="color1">This website has some subtext that goes here under the title. Its a smaller font with lower contrast color</p><div class="signup">Sign up</div></div>
-<div><br><br><br><div class="imageholder">place holder for image</div></div></div>
+    <div class="intro">
+        <div class="text">
+            <br><br><br>
+            <p class="main">This website is awesome</p>
+            <p id="color1">This website has some subtext that goes here under the title. Its a smaller font with lower
+                contrast color</p>
+            <div class="signup">Sign up</div>
+        </div>
+        <div><br><br><br>
+            <div class="imageholder">place holder for image</div>
+        </div>
+    </div>
+    <div class="information">
+        <p id="infoheader"><br>Some random information.<br></p>
+        <div class="holder">
+            <div>
+                <div class="box"></div>
+                <div class="lowertext">text under an image used as subtext hehe</div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div class="lowertext">text under an image used as subtext hehe</div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div class="lowertext">text under an image used as subtext hehe</div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div class="lowertext">text under an image used as subtext hehe</div>
+            </div>
+        </div>
+    </div>
+    <div class="quote"></div>
 </body>
 </html>
